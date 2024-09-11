@@ -23,8 +23,8 @@ loginFormElement.addEventListener('submit', function(event) {
        Jika tidak, maka panggil fungsi showPopUp().
      */
     if (email == expectedEmail && password == expectedPassword) {
-        goToHome();
+      goToHome();
     } else {
-        showPopUp();
+      showPopUp();
     }
 });
